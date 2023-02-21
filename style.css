@@ -148,6 +148,7 @@ body::before {
 }
 .imgslide{
     object-fit: cover;
+    border-radius: 2em;
 }
 .infoswiper{
     width: 600px;
@@ -162,6 +163,7 @@ body::before {
     padding: 1.5em;
     background-color: rgba(0, 0, 0, 0.568);
     backdrop-filter: blur(15px);
+    border-radius: 2em;
 }
 
 audio {
