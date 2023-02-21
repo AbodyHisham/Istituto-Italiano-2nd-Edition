@@ -1,0 +1,173 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    outline: 0px rgb(0, 247, 255) solid;
+
+}
+
+html {
+    color-scheme: dark light;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(assets/images/pexels-mustafa-hussein-14466546.jpg);
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+}
+
+img, svg, picture, video {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navlist {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navitem{
+    border-radius: 2em;
+    padding: .5em;
+    border: #ffffff22 solid 4px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 350ms ease;
+}
+
+.navitem:hover {
+    background-color: #ffffff33;
+    border: #ffffff98 solid 4px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    0deg, 
+    hsla(0, 0%, 5%, 0.81) 10%, 
+    hsla(0, 0%, 5%, 0.4) 
+    );
+    backdrop-filter: blur(1px);
+}
+
+.dashboard__section {
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+}
+
+.dashboard__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 5px 50px 1px #191919;    
+    border-radius: 2em;
+}
+
+.mySwiper2{
+    width: 700px;
+    height: 600px;
+    box-shadow: 5px 5px 50px 1px #191919;    
+    border-radius: 2em;
+}
+
+.swiper-slide {
+    border-radius: 2em;
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(2n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(3n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(4n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(5n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}     
+
+.swiper-slide:nth-child(6n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(7n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(8n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(9n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-slide:nth-child(10n) {
+    background-image: url(assets/images/closeup-engravings-walls-luxor-temple-egypt.jpg);
+}
+
+.swiper-button-prev {
+
+}
+.swiper-button-next {
+
+}
