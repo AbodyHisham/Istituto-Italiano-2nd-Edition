@@ -5,7 +5,7 @@
 // }
 // window.addEventListener('scroll', scrollHeader)
 
-var swiper = new Swiper(".imgswiper", {
+var imgswiper = new Swiper(".imgswiper", {
     grabCursor: true,
     effect: "creative",
     creativeEffect: {
@@ -30,7 +30,7 @@ var swiper = new Swiper(".imgswiper", {
   });
 
 
-  var swiper = new Swiper(".infoswiper", {
+  var infoswiper = new Swiper(".infoswiper", {
     grabCursor: true,
     loop: true,
     direction: "vertical",
