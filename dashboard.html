@@ -15,7 +15,6 @@
 </head>
 
 <body>
-<div class="overlay"></div>
 <header class="header" id="header">
     <nav class="navbar">
         <div class="logo">
@@ -24,12 +23,15 @@
         </div>
 
         <ul class="navlist">
-            <li class="navitem"><a href="index.html">Home</a>
+            <a href="index.html"><li class="navitem">Home
             </li>
-            <li class="navitem"><a href="dashboard.html">Dashboard</a>
+            </a>
+            <a href="dashboard.html"><li class="navitem">Guida Turistica
             </li>
-            <li class="navitem"><a href="about.html">About</a>
+            </a>
+            <a href="about.html"><li class="navitem">About
             </li>
+            </a>
         </ul>
     </nav>
 </header>
@@ -38,42 +40,375 @@
     
     <section class="dashboard__section" id="dashboard">
     <div class="dashboard__container">
-        <div class="swiper mySwiper">
+        <div class="swiper imgswiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">1</div>
-              <div class="swiper-slide">2</div>
-              <div class="swiper-slide">3</div>
-              <div class="swiper-slide">4</div>
-              <div class="swiper-slide">5</div>
-              <div class="swiper-slide">6</div>
-              <div class="swiper-slide">7</div>
-              <div class="swiper-slide">8</div>
-              <div class="swiper-slide">9</div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture1.jpg">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture2.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture3.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture4.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture5.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture6.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture7.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture8.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture9.png">
+              </div>
+              <div class="swiper-slide imgslide">
+                <img src="assets/images/Picture10.png">
+              </div>
             </div>
-            
+
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            
         </div>
-        <div class="swiper mySwiper2">
+        <div class="swiper infoswiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">1</div>
-              <div class="swiper-slide">2</div>
-              <div class="swiper-slide">3</div>
-              <div class="swiper-slide">4</div>
-              <div class="swiper-slide">5</div>
-              <div class="swiper-slide">6</div>
-              <div class="swiper-slide">7</div>
-              <div class="swiper-slide">8</div>
-              <div class="swiper-slide">9</div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_Palazzo del principe Kamal.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Palazzo del Principe Kamal Al Din Hussein e della principessa Nemat Allah
+                    </h1>
+                    <h1 class="text-title year">
+                        1906
+                    </h1>
+                    </div>
+                    <p>
+                        Progettato nel 1906 in stile neobarocco, il palazzo è noto per essere appartenuto alla
+                        principessa Niemat-Allah Kamāl-al-Dīn Hussein (1881-1966), figlia del Khedive Muhammad
+                        Tawfīk Pascià (1852-1892) e moglie del principe Kamāl-al-Dīn Hussein (1874-1932).
+                        Questo palazzo è stato progettato dall'italiano Antonio Lisciac (1856 - 1946), uno dei più
+                        importanti architetti che hanno lavorato in Egitto, e la famiglia reale si è affidata a lui
+                        per la costruzione dei loro palazzi.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7494930360194!2d31.23574828488484!3d30.04404388188248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841e13963752d%3A0x79dc8c679e5e060c!2z2YLYtdixINin2YTYo9mF2YrYsdipINmG2LnZhdipINin2YTZhNmHINiq2YjZgdmK2YI!5e0!3m2!1sar!2seg!4v1665928676807!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_Moschea di Omar Makram.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Moschea di Omar Makram
+                    </h1>
+                    <h1 class="text-title year">
+                        1948
+                    </h1>
+                    </div>
+                    <p>
+                        La moschea, progettata dall'architetto Mario Rossi nel 1948, si affaccia su piazza Ismailia (l'attuale piazza Tahrir), per sostituire un piccolo angolo deserto (ZAWIA) dello sceicco Muhammad Al-Abet, che segnò l'inizio dell'area di Garden City. Il nome della moschea, Omar Makram, in piazza Tahrir è sempre stato associato al lutto e ai funerali di personaggi famosi in Egitto.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7789353770568!2d31.23613718488492!3d30.043199381882754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c6155386f3%3A0x9cdc81128ece831a!2z2YXYs9is2K8g2LnZhdixINmF2YPYsdmF!5e0!3m2!1sar!2seg!4v1665928728433!5m2!1sar!2seg"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_Palazzo reale di Abdin.mp3"></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Palazzo Reale di Abdin
+                    </h1>
+                    <h1 class="text-title year">
+                        1863
+                    </h1>
+                    </div>
+                    <p>
+                        Il palazzo originale, commissionato dal Khedivè Ismail, rimase danneggiato da un incendio
+                        nel 1891. Le ali distrutte furono ricostruite da un gruppo di architetti, tra i quali il
+                        greco Dimitri Fabricius Bey (1848-1907), il goriziano Antonio Lasciac, l’austro-americano
+                        Joseph Urban (1872-1933) e gli italiani Ernesto Verrucci Bey e Mario Rossi. Nella sua
+                        magnificenza, il palazzo rispecchia l’eleganza e la sontuosità neorinascimentale.
+                        Prima di questo palazzo si trovava nello stesso luogo un altro piccolo palazzo di proprietà
+                        di un comandante militare, chiamato “Abedin Bey”. Dopo la sua morte Khedivè Ismail comprò il
+                        palazzo e il terreno che lo circondava e decise di costruire “Il Palazzo di Abdīn”,
+                        rendendolo ufficialmente come sede del governo; quindi, il suo nome (palazzo di Abdīn)
+                        risale a uno dei leader militari nell’era di Mohamed Ali Pascià.
+                        stile neobarocco.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110514.21997473248!2d31.321748067050372!3d30.04920979429935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840baf551f617%3A0xbafb145a268367fd!2z2YXYqtit2YEg2YLYtdixINi52KfYqNiv2YrZhg!5e0!3m2!1sar!2seg!4v1665928791915!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_la moschea del Tabbakh.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        La Moschea del Taback | Il Cuoco
+                    </h1>
+                    <h1 class="text-title year">
+                        1243
+                    </h1>
+                    </div>
+                    <p>
+                        Fu costruita nel 1243 all’epoca dei Mammelucchi dal principe Jamal al-Din Oquosh chi era
+                        responsabile dei palazzi del sultano del re Najm al-Din Ayoub, e poi è rinnovata da Haj Alī
+                        al-Tabbākh nel periodo del Sultano alNāsīr Muhammad Ibn Qaloun: egli fu responsabile della
+                        cucina e dei ricevimenti del Sultano. La moschea fu rinnovata nel 1542 durante il mandato di
+                        Suleiman al- Kānounī, e poi ricostruita da Mario Rossi tra il 1929 e il 1931.
+                        Alla fine la moschea è stata rinnovata molte volte, ma il suo nome è rimasto lo stesso, e
+                        sulla porta si trova un’inscrizione in cui c’è scritto “Questa moschea fu rinnovata nell’era
+                        di San Maestà Fouad I, il grande re d’Egitto nel 1350 AH.”
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.71574613339!2d31.24884737633238!3d30.04501182393173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841cf550c4adb%3A0xfa45f8d80b1aeffe!2z2YXYs9is2K8g2KfZhNi32KjYp9iu!5e0!3m2!1sar!2seg!4v1665928855950!5m2!1sar!2seg"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_l'edificio Awqaf.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Edificio Awqaf                     </h1>
+                    <h1 class="text-title year">
+                        1925
+                    </h1>
+                    </div>
+                    <p>
+                        L’edificio fu progettato dall’ architetto Giuseppe Tavarelli nel 1925 in uno stile
+                        neobarocco per conto del Ministero degli Affari Religiosi. Nel 1835, Muhammad ‘Ali fondò il
+                        Diwan generale per Dotazioni. Nel 1913, divenne il Ministero delle Donazioni e nel 1953
+                        tutte le moschee passarono sotto la sua amministrazione.
+                        il suo luogo si trova al Cairo ( El-Mansora dentro la facoltàà degli studi islamici per le
+                        ragazze)
+                        L'edificio dell'Awqaf si occupa degli affari dell' invito all'islam all'interno e
+                        all'esterno della Repubblica araba d'Egitto, dove le sue attivitàà comprendono: - prendersi
+                        cura delle moschee - prendersi cura degli orfani - fare ricerche su questioni dottrinali
+                        gestire centri islamici.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110518.23783411644!2d31.101188516406246!3d30.04560880000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840b8e94119d9%3A0x58b7076294dcded0!2sEgyptian%20Endowments%20Ministry%20General%20Bureau!5e0!3m2!1sen!2seg!4v1665928918480!5m2!1sen!2seg"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+                
+                <audio controls src="assets/audio/aac_Riunione Adriatica di Sicurtà.mp3"></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Riunione Adriatica di Sicurtà
+                    </h1>
+                    <h1 class="text-title year">
+                        1857
+                    </h1>
+                    </div>
+                    <p>
+                        L’edificio, progettato negli anni Trenta dall’architetto Florestano di Florio, ripropone in
+                        alcune parti uno stile neoclassico, nonostante l’ispirazione fascista della sua possente
+                        architettura razionalista. La Riunione Adriatica, fondata a Trieste il 9 maggio 1838, era la
+                        seconda più grande compagnia di assicurazione in Italia.
+                        Nel 1857 la Compagnia decise di utilizzare il leone di San Marco come logo.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d110568.2262137331!2d31.3811234!3d30.0007741!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458414d4db4434d%3A0x753c310c5db4d231!2z2YXYudmH2K8g2KfZhNiz2YTYp9mF2Ycg2YjYp9mE2LXYrdmHINin2YTZhdmH2YbZitmH!5e0!3m2!1sar!2seg!4v1665929006024!5m2!1sar!2seg"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_la chiesa e il convento di san Giuseppe.mp3"></audio>                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        La Chiesa e il Convento di San Giuseppe
+                    </h1>
+                    <h1 class="text-title year">
+                        1871
+                    </h1>
+                    </div>
+                    <p>
+                        La storia della chiesa comincia nel 1871, quando i francescani di terra santa vollero
+                        costruire una chiesa nel cuore di El Marhrousa: “l’Egitto”.
+                        È considerata una delle più belle chiese italiane in Egitto, costruita dall’architetto
+                        Farina, sotto la supervisione di padre Ortensio D’Avici nel 1882. La chiesa è stata
+                        costruita su un’area più ampia nel 1904 dall’architetto italiano Aristide Leonori, che ha
+                        progettato l’attuale sontuoso edificio in stile rinascimentale, in collaborazione con suo
+                        fratello Pio. Realizzato dall’impresa italiana “Garozzo e Figli”, l’edificio rispecchia
+                        l’aspetto monumentale delle chiese in stile Romano-Toscano.
+                        L’edificio ha la forma di una nave rettangolare. Il tetto della chiesa è eretto su dieci
+                        colonne circolari e semicircolari con archi intersecanti e la colonna termina con una parte
+                        decorata con foglie d’albero e croci.  
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110568.22624391197!2d31.381123366286236!3d30.00077407291417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840beeb42e247%3A0xd635c544d74a0a89!2sChurch%20of%20Saint%20Joseph!5e0!3m2!1sar!2seg!4v1665929158312!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_Banca Misr.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Banca Misr                  
+                    </h1>
+                    <h1 class="text-title year">
+                        1927
+                    </h1>
+                    </div>
+                    <p>
+                        L’edificio, progettato da Antonio Lasciac nel 1927, rievoca le forme dell’architettura
+                        veneziana e il ricco decorativismo del periodo mamelucco.
+                        La banca, ideata e fondata da Talat Harb pascià (1867-1941), fu la prima banca egiziana di
+                        proprietà di azionisti esclusivamente egiziani: l'arabo veniva usato per tutte le
+                        comunicazioni ed attività bancarie.
+                        Talat Harb fondò 26 aziende in vari settori economici. Le aziende includevano i settori
+                        della filatura e del tessuto. Tutto questo fu fatto per migliorare l'economia egiziana in
+                        questo periodo. Un azionista famoso della banca è Abdelazim Al-Masry uno dei nobili di
+                        Maraghagha.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55284.10537649865!2d31.346102652280752!3d30.00078797616433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847eeeb45915d%3A0xf79adb24f118e3d3!2z2KjZhtmDINmF2LXYsSDZgdix2Lkg2YPZiNix2YbZiti0INin2YTZhdi52KfYr9mJ!5e0!3m2!1sar!2seg!4v1665929272952!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_Casa di Suares.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        La Casa di Soares 
+                    </h1>
+                    <h1 class="text-title year">
+                        1897
+                    </h1>
+                    </div>
+                    <p>
+                        La casa di Soares, conosciuta anche come il “Risotto club”, è un edificio costruito da
+                        Antonio Lasciac nel 1897 nello stile del rinascimento italiano. Essa fu inaugurata nel
+                        novembre 1898. È la casa del banchiere Rafael Soares e si trova nella piazza di Mustafa
+                        Kamel.
+                        L’edificio è costituito su tre piani, su una superficie di 910 metri quadrati, con lo scopo
+                        di ospitare il club sociale italiano. Il club dispone di sale per la lettura e per la
+                        conversazione, un tavolo da biliardo e una sala da ballo.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221231.89471368192!2d31.419554106181977!3d29.95791612343911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458414ad272ec9b%3A0x6e972f5331943d34!2z2KjZhtmDINmF2LXYsSDZgdix2Lkg2KfZhNiq2YXZiNmK2YQg2KfZhNi52YLYp9ix2Ykg2LnZhdin2LHYqSDYp9mE2LrYstmEINmI2KfZhNmG2LPZitis!5e0!3m2!1sar!2seg!4v1665929461024!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+              <div class="swiper-slide infoslide">
+
+                <audio controls src="assets/audio/aac_credito fondario egiziano.mp3" ></audio>
+                
+                <div class="info-text">
+                    <div class="flex">
+                    <h1 class="text-title">
+                        Credito Fondiario Egiziano
+                    </h1>
+                    <h1 class="text-title year">
+                        1903
+                    </h1>
+                    </div>
+                    <p>
+                        Eretto nel 1903, l’edificio è stato progettato da Carlo Prampolini in stile
+                        neorinascimentale con elementi di influenze neobarocche. Fu fondata il 15 febbraio 1880 dal
+                        barone Alphonse Léopold e Marie Delort de Gléon (1843-1899), mentre Raphaël Menachem Suarès
+                        e Karl Heinrich Beyerlé erano soci fondatori della banca.
+                    </p>
+                </div>
+
+                <div class="info-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7494930360194!2d31.23574828488484!3d30.04404388188248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841e13963752d%3A0x79dc8c679e5e060c!2z2YLYtdixINin2YTYo9mF2YrYsdipINmG2LnZhdipINin2YTZhNmHINiq2YjZgdmK2YI!5e0!3m2!1sar!2seg!4v1665928676807!5m2!1sar!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
             </div>
             
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
         </div>
           
-    </div>       
+    </div>  
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>   
+
     </section>
 </main>
 

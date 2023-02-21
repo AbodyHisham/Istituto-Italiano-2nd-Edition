@@ -5,7 +5,7 @@
 // }
 // window.addEventListener('scroll', scrollHeader)
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".imgswiper", {
     grabCursor: true,
     effect: "creative",
     creativeEffect: {
@@ -28,3 +28,49 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: '.swiper-button-prev',
     },
   });
+
+
+  var swiper = new Swiper(".infoswiper", {
+    grabCursor: true,
+    loop: true,
+    direction: "vertical",
+    effect: "slide",
+    spaceBetween: 30,
+    pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+        clickable: true,
+    },
+    
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+  });
+
+
+document.addEventListener(
+  "play",
+  function (e) {
+    var audios = document.getElementsByTagName("audio");
+    for (var i = 0, len = audios.length; i < len; i++) {
+      if (audios[i] != e.target) {
+        audios[i].pause();
+      }
+    }
+  },
+  true
+);
+
+(function setGlowEffectRx() {
+    const glowEffects = document.querySelectorAll(".glow-effect");
+  
+    glowEffects.forEach((glowEffect) => {
+      const glowLines = glowEffect.querySelectorAll("rect");
+      const rx = getComputedStyle(glowEffect).borderRadius;
+  
+      glowLines.forEach((line) => {
+        line.setAttribute("rx", rx);
+      });
+    });
+  })();
