@@ -63,6 +63,7 @@ document.addEventListener(
 );
 
 imgswiper.controller.control = this.infoswiper;
+infoswiper.controller.control = this.imgswiper;
 
 (function setGlowEffectRx() {
     const glowEffects = document.querySelectorAll(".glow-effect");
