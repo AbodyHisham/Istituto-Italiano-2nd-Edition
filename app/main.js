@@ -7,6 +7,7 @@
 
 var imgswiper = new Swiper(".imgswiper", {
     grabCursor: true,
+    loop: true,
     effect: "creative",
     creativeEffect: {
       prev: {
