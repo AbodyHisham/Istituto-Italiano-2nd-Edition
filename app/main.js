@@ -7,7 +7,6 @@
 
 var imgswiper = new Swiper(".imgswiper", {
     grabCursor: true,
-    loop: true,
     effect: "creative",
     creativeEffect: {
       prev: {
@@ -33,7 +32,6 @@ var imgswiper = new Swiper(".imgswiper", {
 
   var infoswiper = new Swiper(".infoswiper", {
     grabCursor: true,
-    loop: true,
     direction: "vertical",
     effect: "slide",
     spaceBetween: 30,
