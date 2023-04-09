@@ -24,7 +24,6 @@ var imgswiper = new Swiper(".imgswiper", {
     },
     
     navigation: {
-        nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
   });
@@ -43,7 +42,6 @@ var imgswiper = new Swiper(".imgswiper", {
     
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
     },
   });
 
