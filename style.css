@@ -43,6 +43,12 @@ header {
     z-index: 2;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: inherit;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -97,9 +103,9 @@ body::before {
 }
 
 .home__section {
-    display: grid;
-    place-items: center;
+    
 }
+
 .home__container {
     text-align: center;
     padding: 7em;
